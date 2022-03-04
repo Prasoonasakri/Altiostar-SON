@@ -1,0 +1,27 @@
+Write a program that gets a list of integers (which are chosen from values between 0 and 8 inclusive) from the user,
+
+and stores the factorial of each integer in a vector.
+
+The first integer indicates how many numbers are in the list and should not be stored in the vector.
+
+The program should print out the vector values.
+
+ 
+
+(Hint: n! = 1 for n=0 or n=1; and n! = 1 x 2 x … x (n-1) x n for n >1.)
+
+ 
+
+For example, given the following input:
+
+5 1 2 3 0 4
+
+The first number, 5, means there will be 5 numbers in the vector and we are going to store the factorials of the remaining numbers. 
+
+ 
+
+Therefore, the following output will be produced:
+
+1 2 6 1 24
+
+which is the result of 1!, followed by 2!, then 3!,  0!, and finally 4!
